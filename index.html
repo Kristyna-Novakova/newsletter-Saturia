@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Saturia newsletter</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap"
       rel="stylesheet"
     />
+    <title>Saturia newsletter</title>
   </head>
   <body>
     <form
@@ -102,7 +102,7 @@
       }
       #se-webform-7.se-webform > *,
       #se-webform-7.se-webform .se-webform-inner > * {
-        width: 100%;
+        min-width: 100%;
       }
       #se-webform-7.se-webform .se-header h3 {
         font-size: 20px;
@@ -123,7 +123,8 @@
         margin-top: 15px;
       }
       #se-webform-7.se-webform .se-body ul {
-        margin: 0 5%;
+        /* margin: 0 5%; */
+        margin-left: 24px;
         padding: 0;
         list-style: none;
       }
@@ -253,7 +254,7 @@
       }
       #se-webform-7.se-webform,
       .se-wrapper {
-        font-size: 14px;
+        font-size: 16px;
         font-family: Arial, sans-serif;
       }
       #se-webform-7.se-webform,
@@ -358,15 +359,13 @@
       #se-webform-7.se-webform .se-submit div.se-fake {
         padding: 12px 24px;
         display: block;
-        margin: 0 auto;
         background: rgba(225, 174, 85, 1);
         border: 1px solid rgba(255, 255, 255, 1);
         font-size: 15px;
         text-transform: uppercase;
         font-weight: bold;
         color: rgba(16, 80, 87, 1);
-        display: block;
-        margin: 0 auto;
+        margin-left: 0;
         cursor: pointer;
         border-radius: 0px 0px 0px 0px;
       }
